@@ -1,0 +1,23 @@
+staff:
+        - alice
+        - fred
+        - robin
+        - natasha
+        - eric
+guests:
+        - rob
+        - bob
+        - michael
+        - williams
+        - julia
+revoke:
+        - sara
+        - frank
+        - larry
+        - lisa
+        - roger
+patches:
+        - tree
+        - wget
+        - ntp
+        - nginx

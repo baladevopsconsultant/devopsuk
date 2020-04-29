@@ -1,0 +1,5 @@
+---
+- name: Install httpd and restart the service
+  hosts: all
+  roles:
+   - import

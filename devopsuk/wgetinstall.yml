@@ -1,0 +1,14 @@
+---
+- name: Import role
+  hosts: all
+  tasks:
+   - name: Install wget
+     yum:
+      name: wget
+      state: present
+   - name: Include role
+     include_role:
+      name: myfirewall
+#   - name:  Import role
+#     import_role:
+#      name: myvhost
