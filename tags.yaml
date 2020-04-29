@@ -30,3 +30,8 @@
       path: /home/anu/megastar
       state: touch
       owner: anu
+   - name: change in the feature
+     yum:
+      name: git
+      state: present
+     
