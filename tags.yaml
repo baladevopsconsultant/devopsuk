@@ -36,4 +36,6 @@
       state: present
    - name: echo
      command: echo "Feature new"
+   - name: echo
+     command: echo "Hey I am in DEV branch - need to be pushed to master branch"
      
