@@ -34,4 +34,6 @@
      yum:
       name: git
       state: present
+   - name: echo
+     command: echo "Feature new"
      
