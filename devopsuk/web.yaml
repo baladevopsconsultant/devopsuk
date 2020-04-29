@@ -1,5 +1,0 @@
----
-- name: configuring web server
-  hosts: db
-  roles:
-   - myvhost

@@ -1,5 +1,0 @@
----
-- name: calling role
-  hosts: db
-  roles:
-   - myfirewall
